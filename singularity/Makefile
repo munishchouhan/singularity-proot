@@ -5,5 +5,5 @@ build:
 			--push \
 			--platform linux/amd64,linux/arm64 \
 			--build-arg version=${version} \
-			--tag docker.io/hrma017/singularity:v${version} \
+			--tag docker.io/wavetest/singularity:v${version} \
 			.
