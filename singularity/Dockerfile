@@ -1,4 +1,4 @@
-FROM alpine:3.21.3
+FROM alpine:latest
 ARG version
 RUN apk update
 RUN apk add singularity=${version}
